@@ -65,15 +65,23 @@ Key Takeaway: This dual-plot allows us to identify the "elbow point" where addin
 
 Results:
     Trees: 10, Validation MAE for Random Forest Model: 280.29, Execution Time: 0.3001 seconds
+    
     Trees: 50, Validation MAE for Random Forest Model: 265.94, Execution Time: 1.3782 seconds
+    
     Trees: 100, Validation MAE for Random Forest Model: 264.57, Execution Time: 2.5430 seconds
+    
     Trees: 150, Validation MAE for Random Forest Model: 264.07, Execution Time: 3.7779 seconds
+    
     Trees: 200, Validation MAE for Random Forest Model: 263.62, Execution Time: 5.1087 seconds
+    
     Trees: 300, Validation MAE for Random Forest Model: 263.36, Execution Time: 7.3073 seconds
+    
     Trees: 500, Validation MAE for Random Forest Model: 263.15, Execution Time: 11.9356 seconds
+    
     Trees: 1000, Validation MAE for Random Forest Model: 263.11, Execution Time: 23.2679 seconds
 
 The optimal amount of n_estimators: 1000, our lowest mean absolute error 263.11, Execution Time: 23.2679 seconds.
+
 R^2 Score of 98.12%.
 
 
