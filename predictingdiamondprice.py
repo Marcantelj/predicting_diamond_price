@@ -11,7 +11,7 @@ df = pd.read_csv('Diamond Prediction/diamonds.csv')
 df.rename(columns={"x" : "width", "y" : "length", "z":"height"}, inplace=True)
 
 # Remapping all of are qualitative date into quantitative data for our model
-cut_mapping = {"Fair" : 0, "Good": 1, "Very Good": 2, "Premium":3, "ideal": 4}
+cut_mapping = {"Fair" : 0, "Good": 1, "Very Good": 2, "Premium":3, "Ideal": 4}
 color_mapping = {"J":0, "I": 1, "H": 2, "G":3, "F": 4, "E":5, "D":6}
 clarity_mapping = {"I1":0, "SI2": 1, "SI1": 2, "VS2":3, "VS1": 4, "VVS2":5, "VVS1":6, "IF":7}
 
